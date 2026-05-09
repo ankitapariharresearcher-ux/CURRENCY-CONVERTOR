@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💱 Currency Converter</h1>
+    <p>Real-time exchange rates</p>
+
+    <input type="number" id="amount" placeholder="Enter Amount">
+
+    <div class="row">
+        <div>
+            <label>From</label>
+            <select id="fromCurrency"></select>
+        </div>
+
+        <button id="swap">⇄</button>
+
+        <div>
+            <label>To</label>
+            <select id="toCurrency"></select>
+        </div>
+    </div>
+
+    <button id="convertBtn">Convert</button>
+
+    <!-- RESULT BOX (separate & visible) -->
+    <div class="result-box">
+        <h3>Conversion Result</h3>
+        <p id="result">--</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

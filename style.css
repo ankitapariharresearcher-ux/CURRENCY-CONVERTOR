@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN CARD */
+.container {
+    background: white;
+    padding: 30px;
+    width: 380px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    color: gray;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.row div {
+    width: 40%;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* SWAP BUTTON */
+#swap {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+}
+
+/* MAIN BUTTON */
+button#convertBtn {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: burlywood;
+}
+
+/* RESULT BOX (FIXED POSITION BELOW) */
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f5ff;
+    border-radius: 10px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
